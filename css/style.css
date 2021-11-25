@@ -12,6 +12,21 @@
     clear: both;
 }
 
+body{
+    text-align: center;
+    background-color: powderblue;
+}
+
+#img-box{
+    width: 600px;
+    height: 350px;
+    background-color: orange;
+    margin: 50px auto 0;
+}
+img{
+    width: 100%;
+}
+
 
 /* *** HEADER *** */
 
