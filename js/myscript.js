@@ -8,7 +8,17 @@
 const app = new Vue({
     el: '#root',
     data:{
-        message: "Parigi a primavera",
-        image: "img/parigi_metro.JPG"
+        message: "Metro",
+        image: "img/parigi_metro.JPG",
+        myClass: "red-text",
+    },
+    methods:{
+        changColor: function(){
+            if (this.myClass == "blue-text"){
+                this.myClass = "red-text";
+            }else{
+                this.myClass = "blue-text";
+            }
+        }
     }
 });

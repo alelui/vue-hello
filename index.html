@@ -11,10 +11,15 @@
 
     <div id="root">
 
-        <h1>Il Titole è: {{message}}</h1>
+        <h1 v-bind:class="myClass">Parigi: {{message}}</h1>
+
         <div id="img-box">
-            <img v-bind:src="image" alt="">
+            <img v-bind:src="image" alt="metro">
         </div>
+
+        <button @click="changColor" >Cliccami</button>
+
+    
         
     </div>
     
