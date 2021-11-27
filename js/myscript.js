@@ -16,8 +16,12 @@ const app = new Vue({
         changColor: function(){
             if (this.myClass == "blue-text"){
                 this.myClass = "red-text";
+                this.image = "img/parigi_tour-eiffel.JPG";
+                this.message = "Tour Eiffel";
             }else{
                 this.myClass = "blue-text";
+                this.image = "img/parigi_metro.JPG";
+                this.message = "Metro";
             }
         }
     }
